@@ -23,19 +23,21 @@ except:
 
 else:
     #Operação
-    if operacaoMat == 1:
-        print(f'O resultado é {calculos.somar(n1,n2)}')
+    match operacaoMat:
+    
+        case 1:
+            print(f'O resultado é {calculos.somar(n1,n2)}')
 
-    elif operacaoMat == 2:
-        print(f'O resultado é {calculos.subitração(n1,n2)}')
+        case 2:
+            print(f'O resultado é {calculos.subitração(n1,n2)}')
 
-    elif operacaoMat == 3:
-        print(f'O resultado é {calculos.multiplicacao(n1,n2)}')
+        case 3:
+            print(f'O resultado é {calculos.multiplicacao(n1,n2)}')
 
-    elif operacaoMat == 4:
-        print(f'O resultado é {calculos.divisao(n1,n2)}')
-    else: 
-        print('Opção não encontrada')
+        case 4:
+            print(f'O resultado é {calculos.divisao(n1,n2)}')
+        case _: 
+            print('Opção não encontrada')
 
 finally:
     print('Operação realizada com sucesso')
