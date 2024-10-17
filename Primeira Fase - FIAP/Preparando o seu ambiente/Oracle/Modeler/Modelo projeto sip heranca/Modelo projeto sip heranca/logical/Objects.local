@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="13CE4B11-A2EE-3BA5-3696-1D9FC4E49B27" name="T_CLIENTE" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="AB34721D-7EAA-B85D-2535-0AB9D258E872" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="315E5DA2-E25E-CF2A-21C3-727BE61899E2" name="T_PES_FISICA" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="AB34721D-7EAA-B85D-2535-0AB9D258E872" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="5E3E4E7C-5844-AB2E-86EB-345A3D775148" name="T_PES_JURIDICA" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="AB34721D-7EAA-B85D-2535-0AB9D258E872" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="5CB13A12-492F-5096-6098-3F1DF0550D28" name="ser" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="AB34721D-7EAA-B85D-2535-0AB9D258E872" propertySourceId="13CE4B11-A2EE-3BA5-3696-1D9FC4E49B27" propertyTargetId="5E3E4E7C-5844-AB2E-86EB-345A3D775148"/>
+   <object objectType="Relation" objectID="C45A3F3C-0AB7-A27B-9B0F-5DB094CD066E" name="serv2" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="AB34721D-7EAA-B85D-2535-0AB9D258E872" propertySourceId="13CE4B11-A2EE-3BA5-3696-1D9FC4E49B27" propertyTargetId="315E5DA2-E25E-CF2A-21C3-727BE61899E2"/>
+   <object objectType="Arc" objectID="D7F402EB-19C3-6D9F-7E96-E81782EF4381" name="Arc_1" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Arc" propertyParentId="AB34721D-7EAA-B85D-2535-0AB9D258E872" propertySourceId="" propertyTargetId=""/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

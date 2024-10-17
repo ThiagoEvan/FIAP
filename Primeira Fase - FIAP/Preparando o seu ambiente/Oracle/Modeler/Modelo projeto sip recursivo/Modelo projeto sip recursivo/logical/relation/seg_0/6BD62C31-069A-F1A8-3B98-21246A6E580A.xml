@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="coodernar" directorySegmentName="seg_0" id="6BD62C31-069A-F1A8-3B98-21246A6E580A">
+<createdBy>tevan</createdBy>
+<createdTime>2024-08-22 01:09:41 UTC</createdTime>
+<ownerDesignName>Modelo projeto sip recursivo</ownerDesignName>
+<engineerTo>
+<item key="8FBAF490-D0B3-7510-FB05-A0D8B1EA80AC" value="true"/>
+</engineerTo>
+<targetPk>4144C1C7-31B1-2198-58BE-BC18776CDE9F</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>EA8CEE93-B2AB-2A3D-6DDE-0114A32FA457</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>EA8CEE93-B2AB-2A3D-6DDE-0114A32FA457</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F418364C-D958-7EE4-E6DC-9D033DD6B85B" name="T_CIDADE">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-09 01:41:05 UTC</createdTime>
+<ownerDesignName>Formas_Normais</ownerDesignName>
+<engineerTo>
+<item key="9BF262C1-28F3-934D-C9CA-FBF24319979F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_cidade" id="7CC93834-EAF9-9CF8-489C-1E463BF6BA98">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-09 01:41:16 UTC</createdTime>
+<ownerDesignName>Formas_Normais</ownerDesignName>
+<engineerTo>
+<item key="9BF262C1-28F3-934D-C9CA-FBF24319979F" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_estado" id="0F8710B4-0161-BBE2-1715-146E3BE7481B">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-09 01:43:24 UTC</createdTime>
+<generatorID>4A24D225-C410-7560-B67E-FFBFA63F64BA</generatorID>
+<ownerDesignName>Formas_Normais</ownerDesignName>
+<engineerTo>
+<item key="9BF262C1-28F3-934D-C9CA-FBF24319979F" value="true"/>
+</engineerTo>
+<referedAttribute>8E31FD34-4917-1A91-4642-762E2D2762B5</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_cidade" id="A0546331-96F6-78F3-174A-815681D07934">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-09 01:41:25 UTC</createdTime>
+<ownerDesignName>Formas_Normais</ownerDesignName>
+<engineerTo>
+<item key="9BF262C1-28F3-934D-C9CA-FBF24319979F" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="178499C9-720B-AD60-5052-AE179B36FB7E" name="T_CIDADE PK">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-09 01:41:24 UTC</createdTime>
+<ownerDesignName>Formas_Normais</ownerDesignName>
+<engineerTo>
+<item key="9BF262C1-28F3-934D-C9CA-FBF24319979F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7CC93834-EAF9-9CF8-489C-1E463BF6BA98</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

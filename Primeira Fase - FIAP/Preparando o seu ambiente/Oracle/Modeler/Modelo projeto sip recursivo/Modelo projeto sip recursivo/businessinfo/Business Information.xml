@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="40C51B67-BD2E-FE08-B26C-F3A77A0F7366">
+<createdBy>tevan</createdBy>
+<createdTime>2024-08-22 01:07:53 UTC</createdTime>
+<ownerDesignName>Modelo projeto sip recursivo</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

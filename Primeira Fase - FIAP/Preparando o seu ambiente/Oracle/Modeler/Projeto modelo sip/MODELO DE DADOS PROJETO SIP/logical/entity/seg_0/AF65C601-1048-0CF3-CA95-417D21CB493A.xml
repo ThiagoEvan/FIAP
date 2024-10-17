@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AF65C601-1048-0CF3-CA95-417D21CB493A" name="T_SIP_DEPARTAMENTO">
+<createdBy>tevan</createdBy>
+<createdTime>2024-08-21 01:07:00 UTC</createdTime>
+<ownerDesignName>MODELO DE DADOS PROJETO SIP</ownerDesignName>
+<engineerTo>
+<item key="89D5CBEE-0E1E-EC99-0E9F-647E0BDF076F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_depto" id="D7D91FE0-EB7D-837A-9C9A-AE9991E14838">
+<createdBy>tevan</createdBy>
+<createdTime>2024-08-21 01:07:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador de codigos do atributos]]></commentInRDBMS>
+<ownerDesignName>MODELO DE DADOS PROJETO SIP</ownerDesignName>
+<engineerTo>
+<item key="89D5CBEE-0E1E-EC99-0E9F-647E0BDF076F" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_depto" id="91DA1DA7-661C-A488-9793-6E1D5FBEC3BF">
+<createdBy>tevan</createdBy>
+<createdTime>2024-08-21 01:07:47 UTC</createdTime>
+<ownerDesignName>MODELO DE DADOS PROJETO SIP</ownerDesignName>
+<engineerTo>
+<item key="89D5CBEE-0E1E-EC99-0E9F-647E0BDF076F" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sg_depto" id="FD3C5D9C-1EFF-D79B-2CEA-EEB10A2DB238">
+<createdBy>tevan</createdBy>
+<createdTime>2024-08-21 01:08:01 UTC</createdTime>
+<ownerDesignName>MODELO DE DADOS PROJETO SIP</ownerDesignName>
+<engineerTo>
+<item key="89D5CBEE-0E1E-EC99-0E9F-647E0BDF076F" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="090B9581-0ADC-CDF2-D09F-8896F5B33D56" name="T_SIP_DEPARTAMENTO PK">
+<createdBy>tevan</createdBy>
+<createdTime>2024-08-21 01:07:42 UTC</createdTime>
+<ownerDesignName>MODELO DE DADOS PROJETO SIP</ownerDesignName>
+<engineerTo>
+<item key="89D5CBEE-0E1E-EC99-0E9F-647E0BDF076F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D7D91FE0-EB7D-837A-9C9A-AE9991E14838</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

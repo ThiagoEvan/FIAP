@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F973A647-0226-6F4A-7F23-5590AF701DE6" name="T_TELEFONE">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-09 01:18:48 UTC</createdTime>
+<ownerDesignName>Formas_Normais</ownerDesignName>
+<engineerTo>
+<item key="9BF262C1-28F3-934D-C9CA-FBF24319979F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_cliente" id="4D3F4BD1-B8BC-A7F8-95DE-47675927DC11">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-09 01:22:41 UTC</createdTime>
+<generatorID>6C52135E-BE7D-E54B-53EB-7A6AC87FF508</generatorID>
+<ownerDesignName>Formas_Normais</ownerDesignName>
+<engineerTo>
+<item key="9BF262C1-28F3-934D-C9CA-FBF24319979F" value="true"/>
+</engineerTo>
+<referedAttribute>A2E1432D-8A44-7286-E4B3-0B2B790D8BBC</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_fone_completo" id="36865000-0572-8CDE-01A1-6A89905A61FB">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-09 01:18:59 UTC</createdTime>
+<ownerDesignName>Formas_Normais</ownerDesignName>
+<engineerTo>
+<item key="9BF262C1-28F3-934D-C9CA-FBF24319979F" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_tipo_fone" id="ECF9AF58-9100-3399-E838-6297A07A882F">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-09 01:23:33 UTC</createdTime>
+<generatorID>50380991-85EC-B750-CF49-A624C50913EF</generatorID>
+<ownerDesignName>Formas_Normais</ownerDesignName>
+<engineerTo>
+<item key="9BF262C1-28F3-934D-C9CA-FBF24319979F" value="true"/>
+</engineerTo>
+<referedAttribute>0AAD0706-040A-846F-BC1C-69C6C2D7E8C0</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_telefone" id="1E4D0110-E7DA-A5D9-9109-6652CADBC107">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-09 01:20:06 UTC</createdTime>
+<ownerDesignName>Formas_Normais</ownerDesignName>
+<engineerTo>
+<item key="9BF262C1-28F3-934D-C9CA-FBF24319979F" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_ddd" id="8FC72C05-4241-8172-099E-7A2275A0CA51">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-09 01:20:17 UTC</createdTime>
+<ownerDesignName>Formas_Normais</ownerDesignName>
+<engineerTo>
+<item key="9BF262C1-28F3-934D-C9CA-FBF24319979F" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="838B57C1-DE52-CF39-18F3-3602163F3589" name="T_TELEFONE PK">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-09 01:20:05 UTC</createdTime>
+<ownerDesignName>Formas_Normais</ownerDesignName>
+<engineerTo>
+<item key="9BF262C1-28F3-934D-C9CA-FBF24319979F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>36865000-0572-8CDE-01A1-6A89905A61FB</attributeRef>
+<attributeRef>4D3F4BD1-B8BC-A7F8-95DE-47675927DC11</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

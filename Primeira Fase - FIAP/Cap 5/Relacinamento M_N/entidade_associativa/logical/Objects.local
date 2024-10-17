@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="79332590-2DAC-71F6-8B56-A2B510EC5228" name="T_CONSULTA" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="0385DD6B-9913-FAC2-0127-903D5C7D030A" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="A4702AA7-A622-67E6-2A10-4B6CBB48D4A5" name="T_MEDICO" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="0385DD6B-9913-FAC2-0127-903D5C7D030A" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="C53F248D-62D1-10A5-508F-E60D2F350BDB" name="T_PACIENTE" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="0385DD6B-9913-FAC2-0127-903D5C7D030A" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="352A8E19-274C-CC4B-B17C-E635E0312A45" name="fazer" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="0385DD6B-9913-FAC2-0127-903D5C7D030A" propertySourceId="C53F248D-62D1-10A5-508F-E60D2F350BDB" propertyTargetId="79332590-2DAC-71F6-8B56-A2B510EC5228"/>
+   <object objectType="Relation" objectID="B8FAEE27-5DAE-6D96-372E-C839614BFD89" name="realizar" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="0385DD6B-9913-FAC2-0127-903D5C7D030A" propertySourceId="A4702AA7-A622-67E6-2A10-4B6CBB48D4A5" propertyTargetId="79332590-2DAC-71F6-8B56-A2B510EC5228"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

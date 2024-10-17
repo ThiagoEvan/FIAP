@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="67CF6656-5DA3-786C-9184-27F687A0D63A" name="T SIP DEPENDENTE">
+<createdBy>tevan</createdBy>
+<createdTime>2024-08-22 00:13:06 UTC</createdTime>
+<ownerDesignName>Modelo Projeto Sip 2</ownerDesignName>
+<engineerTo>
+<item key="0CD9E5B2-0EB5-F83E-7747-5BC43090D228" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr matricula" id="9FBFD291-D069-EB98-D8BF-70B3662A9DA4">
+<createdBy>tevan</createdBy>
+<createdTime>2024-08-22 00:21:52 UTC</createdTime>
+<generatorID>616C3FAA-3775-FE0B-AB51-48F4867ABEAB</generatorID>
+<ownerDesignName>Modelo Projeto Sip 2</ownerDesignName>
+<engineerTo>
+<item key="0CD9E5B2-0EB5-F83E-7747-5BC43090D228" value="true"/>
+</engineerTo>
+<referedAttribute>380E4ED6-B728-0542-7977-48BD4CBA4015</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd dependente" id="ECC1DE48-2CBB-6614-3F8F-FE558BF0156B">
+<createdBy>tevan</createdBy>
+<createdTime>2024-08-22 00:13:22 UTC</createdTime>
+<ownerDesignName>Modelo Projeto Sip 2</ownerDesignName>
+<engineerTo>
+<item key="0CD9E5B2-0EB5-F83E-7747-5BC43090D228" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm dependente" id="2FEDF79D-07AA-5550-0073-8A792B8B8B29">
+<createdBy>tevan</createdBy>
+<createdTime>2024-08-22 00:13:35 UTC</createdTime>
+<ownerDesignName>Modelo Projeto Sip 2</ownerDesignName>
+<engineerTo>
+<item key="0CD9E5B2-0EB5-F83E-7747-5BC43090D228" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt nascimento" id="CDC52374-2918-2887-2FA0-092B461C3933">
+<createdBy>tevan</createdBy>
+<createdTime>2024-08-22 00:13:44 UTC</createdTime>
+<ownerDesignName>Modelo Projeto Sip 2</ownerDesignName>
+<engineerTo>
+<item key="0CD9E5B2-0EB5-F83E-7747-5BC43090D228" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="30CFB27A-D2E4-4E36-CAA1-36C2AE0B2293" name="PK_T_SIP_DEPENDENTE">
+<createdBy>tevan</createdBy>
+<createdTime>2024-08-22 00:13:34 UTC</createdTime>
+<ownerDesignName>Modelo Projeto Sip 2</ownerDesignName>
+<engineerTo>
+<item key="0CD9E5B2-0EB5-F83E-7747-5BC43090D228" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>ECC1DE48-2CBB-6614-3F8F-FE558BF0156B</attributeRef>
+<attributeRef>9FBFD291-D069-EB98-D8BF-70B3662A9DA4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

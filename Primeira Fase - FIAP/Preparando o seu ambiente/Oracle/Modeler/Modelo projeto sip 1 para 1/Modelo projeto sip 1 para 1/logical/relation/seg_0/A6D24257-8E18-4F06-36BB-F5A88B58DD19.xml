@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="possuir" directorySegmentName="seg_0" id="A6D24257-8E18-4F06-36BB-F5A88B58DD19">
+<createdBy>tevan</createdBy>
+<createdTime>2024-08-22 00:56:18 UTC</createdTime>
+<ownerDesignName>Modelo projeto sip 1 para 1</ownerDesignName>
+<engineerTo>
+<item key="258AA992-7BDD-5FA5-6732-EF37F80EA841" value="true"/>
+</engineerTo>
+<sourcePk>673A5672-B097-F42F-56FB-E0DFFCE4B492</sourcePk>
+<dominantRole>F1EC0460-3D6B-4952-3BAB-B2EF7EA28DD4</dominantRole>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F1EC0460-3D6B-4952-3BAB-B2EF7EA28DD4</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>190D3B7F-C02B-CAAD-5AFF-9ECDB906D32B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

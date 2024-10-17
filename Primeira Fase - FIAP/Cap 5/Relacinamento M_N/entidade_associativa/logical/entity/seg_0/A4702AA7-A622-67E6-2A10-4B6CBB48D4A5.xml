@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A4702AA7-A622-67E6-2A10-4B6CBB48D4A5" name="T_MEDICO">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-08 02:07:36 UTC</createdTime>
+<ownerDesignName>entidade_associativa</ownerDesignName>
+<engineerTo>
+<item key="6800C4D6-D20A-1D9F-F3F6-644D1E170867" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_medico" id="F8F152FC-9768-560A-52AE-4061211CB6B7">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-08 02:07:47 UTC</createdTime>
+<ownerDesignName>entidade_associativa</ownerDesignName>
+<engineerTo>
+<item key="6800C4D6-D20A-1D9F-F3F6-644D1E170867" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_medico" id="7F2A79D6-48A2-C17E-1031-CB44E57BE488">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-08 02:07:53 UTC</createdTime>
+<ownerDesignName>entidade_associativa</ownerDesignName>
+<engineerTo>
+<item key="6800C4D6-D20A-1D9F-F3F6-644D1E170867" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nt_crm" id="69079D51-4098-0191-2081-2C632C222E16">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-08 02:07:59 UTC</createdTime>
+<ownerDesignName>entidade_associativa</ownerDesignName>
+<engineerTo>
+<item key="6800C4D6-D20A-1D9F-F3F6-644D1E170867" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A8B84F15-94B9-343E-191C-9BAAB241D7B8" name="T_MEDICO PK">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-08 02:07:52 UTC</createdTime>
+<ownerDesignName>entidade_associativa</ownerDesignName>
+<engineerTo>
+<item key="6800C4D6-D20A-1D9F-F3F6-644D1E170867" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F8F152FC-9768-560A-52AE-4061211CB6B7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="12B26824-8394-4660-FF75-640C6CFABE88" name="T_ESC_PROJETO">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-10 00:00:36 UTC</createdTime>
+<generatorID>85C3D911-FFD0-E7EE-E4E6-886DEB7D2371</generatorID>
+<ownerDesignName>Estudo_de Caso</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_projeto" id="26525F55-2EE5-5C2A-D532-2DA3C9A720DD">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-10 00:00:36 UTC</createdTime>
+<generatorID>E5530A81-9FBE-6464-98B5-0F9F1EBD3059</generatorID>
+<ownerDesignName>Estudo_de Caso</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_projeto" id="148D8D9E-8EB6-136C-EE61-661875E480BA">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-10 00:00:36 UTC</createdTime>
+<generatorID>940A1C4D-0518-C7B7-E185-BA0607E9EC78</generatorID>
+<ownerDesignName>Estudo_de Caso</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_inicio" id="CB1D2536-A2D0-AECF-85AB-E51BEFFE59E8">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-10 00:00:36 UTC</createdTime>
+<generatorID>9BAEBECD-2584-829F-1083-552F76CDE7A9</generatorID>
+<ownerDesignName>Estudo_de Caso</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_termino" id="67325B7F-2503-D169-B2A2-907D4E2501E8">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-10 00:00:36 UTC</createdTime>
+<generatorID>5F2B6B36-004F-E601-0741-E23863CBAA38</generatorID>
+<ownerDesignName>Estudo_de Caso</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="68F49968-9B82-478C-ED07-0ABEF72E1EEA" name="T_ESC_PROJETO_PK">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-10 00:00:36 UTC</createdTime>
+<generatorID>94CE599A-22D6-165F-C725-45EEC952DEF5</generatorID>
+<ownerDesignName>Estudo_de Caso</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="26525F55-2EE5-5C2A-D532-2DA3C9A720DD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AED209E9-9240-8568-47E6-4B063D3889DF" name="T_ESC_PROJETO__NOME">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-10 00:20:01 UTC</createdTime>
+<ownerDesignName>Estudo_de Caso</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="148D8D9E-8EB6-136C-EE61-661875E480BA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="T_ESC_PROJETO_CK_1" directorySegmentName="seg_0" id="D19C6268-CC1B-22CC-4662-06FBB840D8A8">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-10 00:21:52 UTC</createdTime>
+<ownerDesignName>Estudo_de Caso</ownerDesignName>
+<rule><![CDATA[dt_termino > dt_inicio]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

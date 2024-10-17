@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="1AFCBF5F-ABA7-A9FE-753F-BB7EEB502654" mainViewID="D294611A-183B-4A7A-03A1-B048476E8399">
+<createdBy>tevan</createdBy>
+<createdTime>2024-08-22 01:07:53 UTC</createdTime>
+<ownerDesignName>Modelo projeto sip recursivo</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

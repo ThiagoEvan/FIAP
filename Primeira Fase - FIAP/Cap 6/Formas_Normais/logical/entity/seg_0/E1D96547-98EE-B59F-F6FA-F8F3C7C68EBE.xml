@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E1D96547-98EE-B59F-F6FA-F8F3C7C68EBE" name="T_NOTA_FISCAL">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-09 01:27:24 UTC</createdTime>
+<ownerDesignName>Formas_Normais</ownerDesignName>
+<engineerTo>
+<item key="9BF262C1-28F3-934D-C9CA-FBF24319979F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr_nota_fiscal" id="0FCE55B3-6C68-AF5F-88FD-2787B5CD36F1">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-09 01:27:40 UTC</createdTime>
+<ownerDesignName>Formas_Normais</ownerDesignName>
+<engineerTo>
+<item key="9BF262C1-28F3-934D-C9CA-FBF24319979F" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_emissao" id="8C1396BA-4950-712A-2E8E-9505D5CEF2B0">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-09 01:27:55 UTC</createdTime>
+<ownerDesignName>Formas_Normais</ownerDesignName>
+<engineerTo>
+<item key="9BF262C1-28F3-934D-C9CA-FBF24319979F" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_perc_icms" id="AF4EBE23-55F2-4798-AE45-4678659866C1">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-09 01:28:03 UTC</createdTime>
+<ownerDesignName>Formas_Normais</ownerDesignName>
+<engineerTo>
+<item key="9BF262C1-28F3-934D-C9CA-FBF24319979F" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_transportadors" id="3BF7076E-DECC-0095-F864-1C123BADA3CD">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-09 01:35:46 UTC</createdTime>
+<generatorID>A3B4F158-1A68-5EBC-6B46-F2AA6F041BA6</generatorID>
+<ownerDesignName>Formas_Normais</ownerDesignName>
+<engineerTo>
+<item key="9BF262C1-28F3-934D-C9CA-FBF24319979F" value="true"/>
+</engineerTo>
+<referedAttribute>BAF2C8F5-A2AD-7FA3-F146-5DF73076126B</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_cliente" id="5884140F-F45F-5792-87E8-CD35C22D0705">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-09 01:36:01 UTC</createdTime>
+<generatorID>AA602C87-B507-1EAC-B687-E77DBCA27006</generatorID>
+<ownerDesignName>Formas_Normais</ownerDesignName>
+<engineerTo>
+<item key="9BF262C1-28F3-934D-C9CA-FBF24319979F" value="true"/>
+</engineerTo>
+<referedAttribute>A2E1432D-8A44-7286-E4B3-0B2B790D8BBC</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="51EBBDC4-3545-C067-9840-3E7B2508FE78" name="T_NOTA_FISCAL PK">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-09 01:27:54 UTC</createdTime>
+<ownerDesignName>Formas_Normais</ownerDesignName>
+<engineerTo>
+<item key="9BF262C1-28F3-934D-C9CA-FBF24319979F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0FCE55B3-6C68-AF5F-88FD-2787B5CD36F1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

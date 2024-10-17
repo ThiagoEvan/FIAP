@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fazer" directorySegmentName="seg_0" id="352A8E19-274C-CC4B-B17C-E635E0312A45">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-08 02:16:35 UTC</createdTime>
+<ownerDesignName>entidade_associativa</ownerDesignName>
+<engineerTo>
+<item key="6800C4D6-D20A-1D9F-F3F6-644D1E170867" value="true"/>
+</engineerTo>
+<sourcePk>F1E0029E-415D-E157-38DC-F29B49836202</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C53F248D-62D1-10A5-508F-E60D2F350BDB</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>79332590-2DAC-71F6-8B56-A2B510EC5228</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

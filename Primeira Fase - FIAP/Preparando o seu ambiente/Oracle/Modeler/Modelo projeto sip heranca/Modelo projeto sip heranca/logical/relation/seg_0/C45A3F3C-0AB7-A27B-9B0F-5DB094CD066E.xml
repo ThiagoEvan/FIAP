@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="serv2" directorySegmentName="seg_0" id="C45A3F3C-0AB7-A27B-9B0F-5DB094CD066E">
+<createdBy>tevan</createdBy>
+<createdTime>2024-08-22 01:28:01 UTC</createdTime>
+<ownerDesignName>Modelo projeto sip heraca</ownerDesignName>
+<engineerTo>
+<item key="3EDCA44E-2E5E-6D14-33F4-D8235D1F3C51" value="true"/>
+</engineerTo>
+<sourcePk>0DCECB81-57E6-0FCD-8BF5-84E73B5A2C63</sourcePk>
+<arc>D7F402EB-19C3-6D9F-7E96-E81782EF4381</arc>
+<dominantRole>13CE4B11-A2EE-3BA5-3696-1D9FC4E49B27</dominantRole>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>13CE4B11-A2EE-3BA5-3696-1D9FC4E49B27</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>315E5DA2-E25E-CF2A-21C3-727BE61899E2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

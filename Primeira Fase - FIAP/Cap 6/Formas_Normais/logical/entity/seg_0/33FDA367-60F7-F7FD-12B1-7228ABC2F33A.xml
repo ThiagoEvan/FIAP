@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="33FDA367-60F7-F7FD-12B1-7228ABC2F33A" name="T_ITEM_NF">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-09 01:29:47 UTC</createdTime>
+<ownerDesignName>Formas_Normais</ownerDesignName>
+<engineerTo>
+<item key="9BF262C1-28F3-934D-C9CA-FBF24319979F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr_nota_fiscal" id="4CFB297A-5A19-0A33-FD9B-22A0015DA577">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-09 01:34:44 UTC</createdTime>
+<generatorID>B1C6466D-B43B-00CA-F818-EFC0E2EC3275</generatorID>
+<ownerDesignName>Formas_Normais</ownerDesignName>
+<engineerTo>
+<item key="9BF262C1-28F3-934D-C9CA-FBF24319979F" value="true"/>
+</engineerTo>
+<referedAttribute>0FCE55B3-6C68-AF5F-88FD-2787B5CD36F1</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_produto" id="C760D432-B6EE-AA54-4D67-8A5EB92E527C">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-09 01:33:07 UTC</createdTime>
+<generatorID>7C71599F-CD46-CD6E-8D7A-10FCEE8E5979</generatorID>
+<ownerDesignName>Formas_Normais</ownerDesignName>
+<engineerTo>
+<item key="9BF262C1-28F3-934D-C9CA-FBF24319979F" value="true"/>
+</engineerTo>
+<referedAttribute>40615774-B8F9-E35B-4D1D-3B0DA1EE1120</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="qt_vendida" id="CF5A3FE6-CB4B-5D50-A478-E51034A4120B">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-09 01:30:16 UTC</createdTime>
+<ownerDesignName>Formas_Normais</ownerDesignName>
+<engineerTo>
+<item key="9BF262C1-28F3-934D-C9CA-FBF24319979F" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_pre_unitario" id="6551A59F-C2D2-EF41-1B33-36D128AF2995">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-09 01:30:26 UTC</createdTime>
+<ownerDesignName>Formas_Normais</ownerDesignName>
+<engineerTo>
+<item key="9BF262C1-28F3-934D-C9CA-FBF24319979F" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6943A15B-1326-2A51-0B93-0DF952FBDD60" name="T_ITEM_NF PK">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-09 01:30:16 UTC</createdTime>
+<ownerDesignName>Formas_Normais</ownerDesignName>
+<engineerTo>
+<item key="9BF262C1-28F3-934D-C9CA-FBF24319979F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C760D432-B6EE-AA54-4D67-8A5EB92E527C</attributeRef>
+<attributeRef>4CFB297A-5A19-0A33-FD9B-22A0015DA577</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

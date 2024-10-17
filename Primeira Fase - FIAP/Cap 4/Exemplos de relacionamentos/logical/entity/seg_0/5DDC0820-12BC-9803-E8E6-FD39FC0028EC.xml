@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5DDC0820-12BC-9803-E8E6-FD39FC0028EC" name="T_PRODUTO">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-06 01:19:51 UTC</createdTime>
+<ownerDesignName>Exemplos de relacionamentos</ownerDesignName>
+<engineerTo>
+<item key="B5A5C5B4-B700-372E-469E-8094A10E2361" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_produto" id="16A65B2A-BB65-6E8C-EE4D-607921BC3F5A">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-06 01:20:11 UTC</createdTime>
+<ownerDesignName>Exemplos de relacionamentos</ownerDesignName>
+<engineerTo>
+<item key="B5A5C5B4-B700-372E-469E-8094A10E2361" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_produto" id="5A025943-9802-1B3A-0A43-CF6999BB75F8">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-06 01:23:50 UTC</createdTime>
+<ownerDesignName>Exemplos de relacionamentos</ownerDesignName>
+<engineerTo>
+<item key="B5A5C5B4-B700-372E-469E-8094A10E2361" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="qt_estoque" id="5550872B-6D3B-517A-2DFF-894BA26BDFDF">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-06 01:23:58 UTC</createdTime>
+<ownerDesignName>Exemplos de relacionamentos</ownerDesignName>
+<engineerTo>
+<item key="B5A5C5B4-B700-372E-469E-8094A10E2361" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_unitario" id="15D7CA2C-A5FC-9DAE-1898-CDDE45B02F26">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-06 01:24:11 UTC</createdTime>
+<ownerDesignName>Exemplos de relacionamentos</ownerDesignName>
+<engineerTo>
+<item key="B5A5C5B4-B700-372E-469E-8094A10E2361" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A077B120-43D4-19F3-98AB-12BBC5296ECB" name="T_PRODUTO PK">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-06 01:23:49 UTC</createdTime>
+<ownerDesignName>Exemplos de relacionamentos</ownerDesignName>
+<engineerTo>
+<item key="B5A5C5B4-B700-372E-469E-8094A10E2361" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>16A65B2A-BB65-6E8C-EE4D-607921BC3F5A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

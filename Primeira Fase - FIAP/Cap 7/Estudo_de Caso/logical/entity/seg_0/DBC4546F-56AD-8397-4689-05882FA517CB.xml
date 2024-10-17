@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DBC4546F-56AD-8397-4689-05882FA517CB" name="T_ESC_DEPARTAMENTO">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-09 22:56:58 UTC</createdTime>
+<ownerDesignName>Estudo_de Caso</ownerDesignName>
+<engineerTo>
+<item key="E8854CB1-A827-31B9-42AB-8441EFA9CE9A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_depto" id="A250583E-5D1C-C71F-36AC-CD01A4C513C1">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-09 22:57:32 UTC</createdTime>
+<ownerDesignName>Estudo_de Caso</ownerDesignName>
+<engineerTo>
+<item key="E8854CB1-A827-31B9-42AB-8441EFA9CE9A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_depto" id="28EE6E44-83E1-8C50-223F-5038DF436A46">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-09 22:57:42 UTC</createdTime>
+<ownerDesignName>Estudo_de Caso</ownerDesignName>
+<engineerTo>
+<item key="E8854CB1-A827-31B9-42AB-8441EFA9CE9A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sg_depto" id="5CA869D2-1B20-4F38-1370-5B8507835DEC">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-09 22:57:55 UTC</createdTime>
+<ownerDesignName>Estudo_de Caso</ownerDesignName>
+<engineerTo>
+<item key="E8854CB1-A827-31B9-42AB-8441EFA9CE9A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7B6D10EB-84DC-515A-A358-FD85EDA2AF44" name="T_ESC_DEPARTAMENTO PK">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-09 22:57:41 UTC</createdTime>
+<ownerDesignName>Estudo_de Caso</ownerDesignName>
+<engineerTo>
+<item key="E8854CB1-A827-31B9-42AB-8441EFA9CE9A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A250583E-5D1C-C71F-36AC-CD01A4C513C1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

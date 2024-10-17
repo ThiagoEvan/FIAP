@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK T SIP IMPLANTACAO T SIP FUNCIONARIO" directorySegmentName="seg_0" id="C480B2C4-7549-C329-98E1-50806026E783">
+<createdBy>tevan</createdBy>
+<createdTime>2024-08-22 00:36:41 UTC</createdTime>
+<ownerDesignName>Modelo Projeto Sip 2</ownerDesignName>
+<engineerTo>
+<item key="0CD9E5B2-0EB5-F83E-7747-5BC43090D228" value="true"/>
+</engineerTo>
+<sourcePk>0127ECD0-B61C-AE57-A094-FA4FF8FB6470</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>34DC183A-019D-B82F-AA76-C9AF759F302D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>25C832ED-8475-8C90-DE5D-DA72B5A4492B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

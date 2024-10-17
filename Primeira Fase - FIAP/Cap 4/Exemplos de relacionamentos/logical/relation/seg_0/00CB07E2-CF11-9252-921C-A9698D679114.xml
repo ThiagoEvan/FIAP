@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="locar" directorySegmentName="seg_0" id="00CB07E2-CF11-9252-921C-A9698D679114">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-06 01:12:26 UTC</createdTime>
+<ownerDesignName>Exemplos de relacionamentos</ownerDesignName>
+<engineerTo>
+<item key="B5A5C5B4-B700-372E-469E-8094A10E2361" value="true"/>
+</engineerTo>
+<sourcePk>B7B78462-E51B-3A8F-3F55-20A0C97912D2</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1B6BBFC8-BA1E-57C0-009B-D0A65743E13D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>05B5379D-EB5F-0E85-D0C9-A1858957DA47</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

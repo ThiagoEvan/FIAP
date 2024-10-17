@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A9884C1C-CA5F-043F-36F2-5DC3C5084C76" name="T_CARTEIRA_HABILITACAO">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-06 01:01:30 UTC</createdTime>
+<ownerDesignName>Exemplos de relacionamentos</ownerDesignName>
+<engineerTo>
+<item key="B5A5C5B4-B700-372E-469E-8094A10E2361" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr_cnh" id="B278E9AE-2E07-1DA8-6440-F8EEC81E20DF">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-06 01:01:48 UTC</createdTime>
+<ownerDesignName>Exemplos de relacionamentos</ownerDesignName>
+<engineerTo>
+<item key="B5A5C5B4-B700-372E-469E-8094A10E2361" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_cidadao" id="F0A00CF1-A7A3-3B6B-EA75-BFF9FB8439A2">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-06 01:02:41 UTC</createdTime>
+<generatorID>803FE0B8-D66A-2166-78E9-04EE47FFAE0B</generatorID>
+<ownerDesignName>Exemplos de relacionamentos</ownerDesignName>
+<engineerTo>
+<item key="B5A5C5B4-B700-372E-469E-8094A10E2361" value="true"/>
+</engineerTo>
+<referedAttribute>AC282BB8-C59E-A5E6-4A70-84474186BEA5</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_emissao" id="8AE34000-C5DC-FCE7-CFDB-089A696D375F">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-06 01:01:58 UTC</createdTime>
+<ownerDesignName>Exemplos de relacionamentos</ownerDesignName>
+<engineerTo>
+<item key="B5A5C5B4-B700-372E-469E-8094A10E2361" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B7B04EF7-5A5A-671C-A0EB-566E3A926925" name="T_CARTEIRA_HABILITACAO PK">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-06 01:01:57 UTC</createdTime>
+<ownerDesignName>Exemplos de relacionamentos</ownerDesignName>
+<engineerTo>
+<item key="B5A5C5B4-B700-372E-469E-8094A10E2361" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B278E9AE-2E07-1DA8-6440-F8EEC81E20DF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

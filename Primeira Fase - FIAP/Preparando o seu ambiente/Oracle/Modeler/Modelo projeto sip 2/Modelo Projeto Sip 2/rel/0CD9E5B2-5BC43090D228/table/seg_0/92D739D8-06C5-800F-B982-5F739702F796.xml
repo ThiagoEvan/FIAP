@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="92D739D8-06C5-800F-B982-5F739702F796" name="T_SIP_PROJETO">
+<createdBy>tevan</createdBy>
+<createdTime>2024-08-25 01:54:38 UTC</createdTime>
+<generatorID>7E5E38DA-0246-FD90-3C53-685BAE13F73F</generatorID>
+<ownerDesignName>Modelo Projeto Sip 2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_projeto" id="F891BD5B-976D-5565-F155-08929F3AC39C">
+<createdBy>tevan</createdBy>
+<createdTime>2024-08-25 01:54:38 UTC</createdTime>
+<generatorID>177701F9-C123-0A29-6EBC-F1A10C59CD66</generatorID>
+<ownerDesignName>Modelo Projeto Sip 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_projeto" id="17F42109-2112-E9DC-97ED-A0B14D62BFE9">
+<createdBy>tevan</createdBy>
+<createdTime>2024-08-25 01:54:38 UTC</createdTime>
+<generatorID>ACD21ACA-DCD2-A467-DA73-79AFCA746D85</generatorID>
+<ownerDesignName>Modelo Projeto Sip 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_inicio" id="D2FF7B45-53E0-F420-5539-4A6B7344EFD2">
+<createdBy>tevan</createdBy>
+<createdTime>2024-08-25 01:54:38 UTC</createdTime>
+<generatorID>482B39C2-BB42-BD49-6345-05FB4C734DAA</generatorID>
+<ownerDesignName>Modelo Projeto Sip 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_termino" id="6F1575B9-17D7-1E88-A8C0-63C2AB999C0B">
+<createdBy>tevan</createdBy>
+<createdTime>2024-08-25 01:54:38 UTC</createdTime>
+<generatorID>ED280E14-2E18-C6C2-AC72-69149C7C7F5E</generatorID>
+<ownerDesignName>Modelo Projeto Sip 2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="30B36C23-46D6-7D81-12F6-F575ED4F106F" name="PK_SIP_PROJETO">
+<createdBy>tevan</createdBy>
+<createdTime>2024-08-25 01:54:38 UTC</createdTime>
+<generatorID>1B64C725-6888-374F-E29E-1F098DC54B91</generatorID>
+<ownerDesignName>Modelo Projeto Sip 2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F891BD5B-976D-5565-F155-08929F3AC39C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_T_SIP_PROJETO_DATA" directorySegmentName="seg_0" id="D0C2A303-5959-986E-51EA-8B760AE3463D">
+<createdBy>tevan</createdBy>
+<createdTime>2024-08-25 02:22:17 UTC</createdTime>
+<ownerDesignName>Modelo Projeto Sip 2</ownerDesignName>
+<rule><![CDATA[DT_TERMINO > DT_INICIO]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

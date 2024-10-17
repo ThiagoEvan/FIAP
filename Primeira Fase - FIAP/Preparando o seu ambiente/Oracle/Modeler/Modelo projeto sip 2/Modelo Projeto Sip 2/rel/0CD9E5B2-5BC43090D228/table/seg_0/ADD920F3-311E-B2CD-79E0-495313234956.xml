@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ADD920F3-311E-B2CD-79E0-495313234956" name="T_SIP_DEPENDENTE">
+<createdBy>tevan</createdBy>
+<createdTime>2024-08-25 01:54:38 UTC</createdTime>
+<generatorID>67CF6656-5DA3-786C-9184-27F687A0D63A</generatorID>
+<ownerDesignName>Modelo Projeto Sip 2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nr_matricula" id="419562BE-19B3-EC0B-E094-538D52933DBD">
+<createdBy>tevan</createdBy>
+<createdTime>2024-08-25 01:54:38 UTC</createdTime>
+<generatorID>9FBFD291-D069-EB98-D8BF-70B3662A9DA4</generatorID>
+<ownerDesignName>Modelo Projeto Sip 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D9701C80-EB4F-103E-CEC8-48B91AD2C49E" referredColumn="28554DC0-7F68-0180-2A73-8ABD6F2E5AAF"/>
+</associations>
+</Column>
+<Column name="cd_dependente" id="ED2D1FB3-91FF-4BF8-49C0-6BDC50644BF5">
+<createdBy>tevan</createdBy>
+<createdTime>2024-08-25 01:54:38 UTC</createdTime>
+<generatorID>ECC1DE48-2CBB-6614-3F8F-FE558BF0156B</generatorID>
+<ownerDesignName>Modelo Projeto Sip 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_dependente" id="F56AF115-5F88-0C96-03E5-686630B47D4A">
+<createdBy>tevan</createdBy>
+<createdTime>2024-08-25 01:54:38 UTC</createdTime>
+<generatorID>2FEDF79D-07AA-5550-0073-8A792B8B8B29</generatorID>
+<ownerDesignName>Modelo Projeto Sip 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_nascimento" id="71D967D3-E2C7-A352-F1FF-3EF8078AEBE6">
+<createdBy>tevan</createdBy>
+<createdTime>2024-08-25 01:54:38 UTC</createdTime>
+<generatorID>CDC52374-2918-2887-2FA0-092B461C3933</generatorID>
+<ownerDesignName>Modelo Projeto Sip 2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FAA0F3D7-8633-BB8D-5F16-ABD9092E0225" name="PK_SIP_DEPENDENTE">
+<createdBy>tevan</createdBy>
+<createdTime>2024-08-25 01:54:38 UTC</createdTime>
+<generatorID>30CFB27A-D2E4-4E36-CAA1-36C2AE0B2293</generatorID>
+<ownerDesignName>Modelo Projeto Sip 2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ED2D1FB3-91FF-4BF8-49C0-6BDC50644BF5"/>
+<colUsage columnID="419562BE-19B3-EC0B-E094-538D52933DBD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A5DCE4D3-0A2B-A5EF-56CB-209B7722028E" name="FK_SIP_DEPENDENTE_FUNC">
+<createdBy>tevan</createdBy>
+<createdTime>2024-08-25 01:54:38 UTC</createdTime>
+<generatorID>616C3FAA-3775-FE0B-AB51-48F4867ABEAB</generatorID>
+<ownerDesignName>Modelo Projeto Sip 2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="419562BE-19B3-EC0B-E094-538D52933DBD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="552EA807-A96B-C6D2-9DAB-F9B5F73568F6" containerWithKeyObject="E938C1CA-65F3-EC57-F942-D1336E052294" localFKIndex="DEAE7CB2-308A-D812-A2EF-B058ABB3A844" name="T_ESC_DEPENDENTE_T_ESC_FUNCIONARIO_FK">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-10 00:00:36 UTC</createdTime>
+<generatorID>FDAC73BE-0AF2-CCFA-C182-DF6748CB6B4B</generatorID>
+<ownerDesignName>Estudo_de Caso</ownerDesignName>
+<referredTableLongName>T_ESC_FUNCIONARIO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>05C1591B-A553-D58A-6045-2382E5D6EF61</referredTableID>
+<keyObject>BF15F649-27E3-3E90-6D5D-CD3DD0B7BE3E</keyObject>
+<referredKeyID>BF15F649-27E3-3E90-6D5D-CD3DD0B7BE3E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>mat_funcionario</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

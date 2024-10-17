@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="79332590-2DAC-71F6-8B56-A2B510EC5228" name="T_CONSULTA">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-08 02:12:24 UTC</createdTime>
+<ownerDesignName>entidade_associativa</ownerDesignName>
+<engineerTo>
+<item key="6800C4D6-D20A-1D9F-F3F6-644D1E170867" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_consulta" id="5B12CEA8-2F0C-B78C-0B55-CBD86B27E07B">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-08 02:12:33 UTC</createdTime>
+<ownerDesignName>entidade_associativa</ownerDesignName>
+<engineerTo>
+<item key="6800C4D6-D20A-1D9F-F3F6-644D1E170867" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_medico" id="D7502D38-578C-D3DA-6A63-1F1879BAD8C2">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-08 02:15:14 UTC</createdTime>
+<generatorID>B8FAEE27-5DAE-6D96-372E-C839614BFD89</generatorID>
+<ownerDesignName>entidade_associativa</ownerDesignName>
+<engineerTo>
+<item key="6800C4D6-D20A-1D9F-F3F6-644D1E170867" value="true"/>
+</engineerTo>
+<referedAttribute>F8F152FC-9768-560A-52AE-4061211CB6B7</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_paciente" id="DBE8A402-F380-27D5-E125-D326D1113F9F">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-08 02:16:35 UTC</createdTime>
+<generatorID>352A8E19-274C-CC4B-B17C-E635E0312A45</generatorID>
+<ownerDesignName>entidade_associativa</ownerDesignName>
+<engineerTo>
+<item key="6800C4D6-D20A-1D9F-F3F6-644D1E170867" value="true"/>
+</engineerTo>
+<referedAttribute>A69263EF-D162-C5CA-4BF3-C662CBCDD5FD</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_ht_consulta" id="7849664A-EFC5-69A2-0500-B6CAFA9DE8EB">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-08 02:12:44 UTC</createdTime>
+<ownerDesignName>entidade_associativa</ownerDesignName>
+<engineerTo>
+<item key="6800C4D6-D20A-1D9F-F3F6-644D1E170867" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_consultorio" id="9B510730-F258-7E5A-9386-1CD621F404F5">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-08 02:12:59 UTC</createdTime>
+<ownerDesignName>entidade_associativa</ownerDesignName>
+<engineerTo>
+<item key="6800C4D6-D20A-1D9F-F3F6-644D1E170867" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3B005E01-E170-45B9-B17D-AA75EDF88D6B" name="T_CONSULTA PK">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-08 02:12:41 UTC</createdTime>
+<ownerDesignName>entidade_associativa</ownerDesignName>
+<engineerTo>
+<item key="6800C4D6-D20A-1D9F-F3F6-644D1E170867" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5B12CEA8-2F0C-B78C-0B55-CBD86B27E07B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

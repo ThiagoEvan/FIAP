@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="AB34721D-7EAA-B85D-2535-0AB9D258E872" mainViewID="B52F200B-EF21-17F9-577E-D8A4AC50A13A">
+<createdBy>tevan</createdBy>
+<createdTime>2024-08-22 01:14:17 UTC</createdTime>
+<ownerDesignName>Modelo projeto sip heraca</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

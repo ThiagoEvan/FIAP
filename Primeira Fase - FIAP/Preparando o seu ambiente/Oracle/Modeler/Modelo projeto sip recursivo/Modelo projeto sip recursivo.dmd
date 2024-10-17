@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Modelo projeto sip recursivo" id="834B078E-E4DF-DB4D-F786-1FBD530FFEEC" version="3.5">
+<createdBy>tevan</createdBy>
+<createdTime>2024-08-22 01:07:53 UTC</createdTime>
+<ownerDesignName>Modelo projeto sip recursivo</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>834B078E-E4DF-DB4D-F786-1FBD530FFEEC</designId>
+</OSDM_Design>

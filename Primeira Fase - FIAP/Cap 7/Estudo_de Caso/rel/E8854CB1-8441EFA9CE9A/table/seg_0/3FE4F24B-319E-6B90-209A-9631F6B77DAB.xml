@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3FE4F24B-319E-6B90-209A-9631F6B77DAB" name="T_ESC_DEPARTAMENTO">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-10 00:00:36 UTC</createdTime>
+<generatorID>DBC4546F-56AD-8397-4689-05882FA517CB</generatorID>
+<ownerDesignName>Estudo_de Caso</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_depto" id="49757FA5-2ACE-FB05-D387-E792B4EA3B4D">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-10 00:00:36 UTC</createdTime>
+<generatorID>A250583E-5D1C-C71F-36AC-CD01A4C513C1</generatorID>
+<ownerDesignName>Estudo_de Caso</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_depto" id="74A386D5-6F2C-AFDC-6060-D5586CE86008">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-10 00:00:36 UTC</createdTime>
+<generatorID>28EE6E44-83E1-8C50-223F-5038DF436A46</generatorID>
+<ownerDesignName>Estudo_de Caso</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sg_depto" id="4D5FF92C-6944-9CAB-69E1-6E76F3AA3B33">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-10 00:00:36 UTC</createdTime>
+<generatorID>5CA869D2-1B20-4F38-1370-5B8507835DEC</generatorID>
+<ownerDesignName>Estudo_de Caso</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9D111574-6835-E226-C093-21D439C037DC" name="T_ESC_DEPARTAMENTO_PK">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-10 00:00:36 UTC</createdTime>
+<generatorID>7B6D10EB-84DC-515A-A358-FD85EDA2AF44</generatorID>
+<ownerDesignName>Estudo_de Caso</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="49757FA5-2ACE-FB05-D387-E792B4EA3B4D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C80CC6CB-C5B5-D67A-AD9C-25EC0F3D1A11" name="T_ESC_DEPTO_NOME">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-10 00:18:36 UTC</createdTime>
+<ownerDesignName>Estudo_de Caso</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="74A386D5-6F2C-AFDC-6060-D5586CE86008"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1C77376B-3F36-AFCE-9188-19CF64EE1EF2" name="T_ESC_DEPTO__SILGA">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-10 00:26:03 UTC</createdTime>
+<ownerDesignName>Estudo_de Caso</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4D5FF92C-6944-9CAB-69E1-6E76F3AA3B33"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

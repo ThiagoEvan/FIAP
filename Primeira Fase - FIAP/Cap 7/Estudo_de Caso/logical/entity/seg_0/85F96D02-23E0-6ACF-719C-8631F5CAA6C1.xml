@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="85F96D02-23E0-6ACF-719C-8631F5CAA6C1" name="T_ESC_FUNCIONARIO">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-09 22:59:43 UTC</createdTime>
+<ownerDesignName>Estudo_de Caso</ownerDesignName>
+<engineerTo>
+<item key="E8854CB1-A827-31B9-42AB-8441EFA9CE9A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="mat_funcionario" id="77F2DA6B-98FE-3B1D-EA27-2D4009AA8522">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-09 23:00:04 UTC</createdTime>
+<ownerDesignName>Estudo_de Caso</ownerDesignName>
+<engineerTo>
+<item key="E8854CB1-A827-31B9-42AB-8441EFA9CE9A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_depto" id="1ED472B4-AC9D-5AD1-CD61-B935895B4B3E">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-09 23:55:18 UTC</createdTime>
+<generatorID>DFF9AE5B-FC68-DDD9-DDA6-6D1A8BFB1644</generatorID>
+<ownerDesignName>Estudo_de Caso</ownerDesignName>
+<engineerTo>
+<item key="E8854CB1-A827-31B9-42AB-8441EFA9CE9A" value="true"/>
+</engineerTo>
+<referedAttribute>A250583E-5D1C-C71F-36AC-CD01A4C513C1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_funcionario" id="574B5124-EA46-82A9-3463-C762039BC5F6">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-09 23:00:59 UTC</createdTime>
+<ownerDesignName>Estudo_de Caso</ownerDesignName>
+<engineerTo>
+<item key="E8854CB1-A827-31B9-42AB-8441EFA9CE9A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_nascimento" id="9D21020D-72FD-6286-4586-38DE16858A94">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-09 23:01:15 UTC</createdTime>
+<ownerDesignName>Estudo_de Caso</ownerDesignName>
+<engineerTo>
+<item key="E8854CB1-A827-31B9-42AB-8441EFA9CE9A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_adimissao" id="8FBDCB03-1201-8C98-CD8F-ED6896ADED01">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-09 23:01:48 UTC</createdTime>
+<ownerDesignName>Estudo_de Caso</ownerDesignName>
+<engineerTo>
+<item key="E8854CB1-A827-31B9-42AB-8441EFA9CE9A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_salario" id="CDF74AA3-7410-DD54-0D6F-30A71B6783F4">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-09 23:02:03 UTC</createdTime>
+<ownerDesignName>Estudo_de Caso</ownerDesignName>
+<engineerTo>
+<item key="E8854CB1-A827-31B9-42AB-8441EFA9CE9A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="end_funcionario" id="F8C8F4A5-92B8-23DA-3C19-4D617E156C18">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-09 23:02:18 UTC</createdTime>
+<ownerDesignName>Estudo_de Caso</ownerDesignName>
+<engineerTo>
+<item key="E8854CB1-A827-31B9-42AB-8441EFA9CE9A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="89C1068D-927B-9D67-3C4B-B2ACA9CD0FE9" name="T_ESC_FUNCIONARIO PK">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-09 23:00:58 UTC</createdTime>
+<ownerDesignName>Estudo_de Caso</ownerDesignName>
+<engineerTo>
+<item key="E8854CB1-A827-31B9-42AB-8441EFA9CE9A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>77F2DA6B-98FE-3B1D-EA27-2D4009AA8522</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FC2D5E44-C5FF-C653-49CF-C91CF3C747AA" name="T_PRODUTO">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-09 01:30:59 UTC</createdTime>
+<ownerDesignName>Formas_Normais</ownerDesignName>
+<engineerTo>
+<item key="9BF262C1-28F3-934D-C9CA-FBF24319979F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_produto" id="40615774-B8F9-E35B-4D1D-3B0DA1EE1120">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-09 01:31:10 UTC</createdTime>
+<ownerDesignName>Formas_Normais</ownerDesignName>
+<engineerTo>
+<item key="9BF262C1-28F3-934D-C9CA-FBF24319979F" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_produto" id="E5EF2585-CF62-A373-9729-C2C7076257FF">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-09 01:31:17 UTC</createdTime>
+<ownerDesignName>Formas_Normais</ownerDesignName>
+<engineerTo>
+<item key="9BF262C1-28F3-934D-C9CA-FBF24319979F" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_pre_unitario" id="9F4D51AA-0C7F-CE75-8498-0734764550DF">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-09 01:31:28 UTC</createdTime>
+<ownerDesignName>Formas_Normais</ownerDesignName>
+<engineerTo>
+<item key="9BF262C1-28F3-934D-C9CA-FBF24319979F" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_ipi" id="9348BE8C-2EBD-4138-FDFE-54FF268D8AFB">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-09 01:31:39 UTC</createdTime>
+<ownerDesignName>Formas_Normais</ownerDesignName>
+<engineerTo>
+<item key="9BF262C1-28F3-934D-C9CA-FBF24319979F" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="501222C2-9CC0-A04A-4D93-293A9112E554" name="T_PRODUTO PK">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-09 01:31:27 UTC</createdTime>
+<ownerDesignName>Formas_Normais</ownerDesignName>
+<engineerTo>
+<item key="9BF262C1-28F3-934D-C9CA-FBF24319979F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>40615774-B8F9-E35B-4D1D-3B0DA1EE1120</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

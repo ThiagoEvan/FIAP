@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FFEB3A2E-8A44-27C3-16D4-82E9793EC107" name="T_SIP_FUNCIONARIO">
+<createdBy>tevan</createdBy>
+<createdTime>2024-08-25 01:54:38 UTC</createdTime>
+<generatorID>34DC183A-019D-B82F-AA76-C9AF759F302D</generatorID>
+<ownerDesignName>Modelo Projeto Sip 2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nr_matricula" id="28554DC0-7F68-0180-2A73-8ABD6F2E5AAF">
+<createdBy>tevan</createdBy>
+<createdTime>2024-08-25 01:54:38 UTC</createdTime>
+<generatorID>380E4ED6-B728-0542-7977-48BD4CBA4015</generatorID>
+<ownerDesignName>Modelo Projeto Sip 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_depto" id="207D54F0-9C72-4043-348B-98DDDEF77E39">
+<createdBy>tevan</createdBy>
+<createdTime>2024-08-25 01:54:38 UTC</createdTime>
+<generatorID>156716F8-03FD-C7F3-83B2-8402EB7FD18A</generatorID>
+<ownerDesignName>Modelo Projeto Sip 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<structuredType>47E390DE-0671-C4B1-8428-0F45CBEE18F8</structuredType>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D5176505-3A49-8633-3461-C3849C1B613F" referredColumn="10D3554A-D09A-F04F-09D4-76DD594A6477"/>
+</associations>
+</Column>
+<Column name="nm_funcionario" id="4B369D89-39DB-C78B-EF67-E657535B31B6">
+<createdBy>tevan</createdBy>
+<createdTime>2024-08-25 01:54:38 UTC</createdTime>
+<generatorID>69E83044-DA1C-68E3-22C8-057A24175883</generatorID>
+<ownerDesignName>Modelo Projeto Sip 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="da_nascimento" id="8B1A0A4C-AC92-9249-B9C1-432958A20824">
+<createdBy>tevan</createdBy>
+<createdTime>2024-08-25 01:54:38 UTC</createdTime>
+<generatorID>8A265C91-DB44-5656-8E6D-9F918749320E</generatorID>
+<ownerDesignName>Modelo Projeto Sip 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_admissao" id="6C7F736F-8CE0-93AB-7E3F-D16D4F31F566">
+<createdBy>tevan</createdBy>
+<createdTime>2024-08-25 01:54:38 UTC</createdTime>
+<generatorID>6368419B-D9D3-2F58-D6B7-F308708948F8</generatorID>
+<ownerDesignName>Modelo Projeto Sip 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_endereco" id="D62F216C-90D3-9168-D42C-AD96B45CC603">
+<createdBy>tevan</createdBy>
+<createdTime>2024-08-25 01:54:38 UTC</createdTime>
+<generatorID>4631F2D4-B038-2669-E089-A5646D59B475</generatorID>
+<ownerDesignName>Modelo Projeto Sip 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_salario_mensal" id="EEFC9553-40D3-C29B-7B9B-1CA41F67D02B">
+<createdBy>tevan</createdBy>
+<createdTime>2024-08-25 01:54:38 UTC</createdTime>
+<generatorID>43CB388C-87A9-A2CF-C538-2EB4F67B2027</generatorID>
+<ownerDesignName>Modelo Projeto Sip 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1CF26BCA-413C-33A6-87A9-563C05471E8E" name="PK_SIP_FUNCIONARIO">
+<createdBy>tevan</createdBy>
+<createdTime>2024-08-25 01:54:38 UTC</createdTime>
+<generatorID>0127ECD0-B61C-AE57-A094-FA4FF8FB6470</generatorID>
+<ownerDesignName>Modelo Projeto Sip 2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="28554DC0-7F68-0180-2A73-8ABD6F2E5AAF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="58942F36-2870-23D4-9426-1AF8A3A5046F" name="FK_SIP_FUNC_DEPTO">
+<createdBy>tevan</createdBy>
+<createdTime>2024-08-25 01:54:38 UTC</createdTime>
+<generatorID>0D29BF4B-51FB-40BA-DCF5-004A607519BB</generatorID>
+<ownerDesignName>Modelo Projeto Sip 2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="207D54F0-9C72-4043-348B-98DDDEF77E39"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_SIP_FUNC_SALARIO" directorySegmentName="seg_0" id="672B6538-127F-13F8-2AE6-D64028178162">
+<createdBy>tevan</createdBy>
+<createdTime>2024-08-25 02:20:33 UTC</createdTime>
+<ownerDesignName>Modelo Projeto Sip 2</ownerDesignName>
+<rule><![CDATA[VL_SALARIO_MENSAL >= 1212]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

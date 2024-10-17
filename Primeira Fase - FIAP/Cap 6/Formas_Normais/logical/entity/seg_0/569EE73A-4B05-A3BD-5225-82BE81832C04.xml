@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="569EE73A-4B05-A3BD-5225-82BE81832C04" name="T_CLIENTE_ENDERECO">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-09 01:36:22 UTC</createdTime>
+<ownerDesignName>Formas_Normais</ownerDesignName>
+<engineerTo>
+<item key="9BF262C1-28F3-934D-C9CA-FBF24319979F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr_cep" id="4A908D33-148F-56FE-4C96-C818C601B60B">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-09 01:45:33 UTC</createdTime>
+<generatorID>F4D3C796-10AD-58EF-FC00-5117925E919E</generatorID>
+<ownerDesignName>Formas_Normais</ownerDesignName>
+<engineerTo>
+<item key="9BF262C1-28F3-934D-C9CA-FBF24319979F" value="true"/>
+</engineerTo>
+<referedAttribute>A654911F-584F-AC4F-77CC-CFE0F547917B</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_endereco" id="D07EB566-1554-135E-B24B-C2D917EEE2A9">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-09 01:36:42 UTC</createdTime>
+<ownerDesignName>Formas_Normais</ownerDesignName>
+<engineerTo>
+<item key="9BF262C1-28F3-934D-C9CA-FBF24319979F" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_complemento" id="424D7209-E594-10B7-C9E6-D535E772A10A">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-09 01:36:56 UTC</createdTime>
+<ownerDesignName>Formas_Normais</ownerDesignName>
+<engineerTo>
+<item key="9BF262C1-28F3-934D-C9CA-FBF24319979F" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_cliente" id="8E43DFC1-9FCF-459C-B379-C8687BBD51CA">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-09 01:45:57 UTC</createdTime>
+<generatorID>7AB31364-FECC-1900-888E-4AF9C90F7EAA</generatorID>
+<ownerDesignName>Formas_Normais</ownerDesignName>
+<engineerTo>
+<item key="9BF262C1-28F3-934D-C9CA-FBF24319979F" value="true"/>
+</engineerTo>
+<referedAttribute>A2E1432D-8A44-7286-E4B3-0B2B790D8BBC</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5329A812-ACCC-B571-7944-6772DCA06932" name="T_CLIENTE_ENDERECO PK">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-09 01:37:10 UTC</createdTime>
+<ownerDesignName>Formas_Normais</ownerDesignName>
+<engineerTo>
+<item key="9BF262C1-28F3-934D-C9CA-FBF24319979F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4A908D33-148F-56FE-4C96-C818C601B60B</attributeRef>
+<attributeRef>8E43DFC1-9FCF-459C-B379-C8687BBD51CA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

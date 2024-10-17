@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0563E834-5F07-25B8-0927-F687E1B61B95" name="T_ESC_DEPENDENTE">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-09 23:02:55 UTC</createdTime>
+<ownerDesignName>Estudo_de Caso</ownerDesignName>
+<engineerTo>
+<item key="E8854CB1-A827-31B9-42AB-8441EFA9CE9A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="mat_funcionario" id="63505500-A694-6724-7295-C9EF6190CD81">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-09 23:37:01 UTC</createdTime>
+<generatorID>FDAC73BE-0AF2-CCFA-C182-DF6748CB6B4B</generatorID>
+<ownerDesignName>Estudo_de Caso</ownerDesignName>
+<engineerTo>
+<item key="E8854CB1-A827-31B9-42AB-8441EFA9CE9A" value="true"/>
+</engineerTo>
+<referedAttribute>77F2DA6B-98FE-3B1D-EA27-2D4009AA8522</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_dependente" id="8C6A9124-53BC-7CCA-B055-19BFB859182B">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-09 23:03:17 UTC</createdTime>
+<ownerDesignName>Estudo_de Caso</ownerDesignName>
+<engineerTo>
+<item key="E8854CB1-A827-31B9-42AB-8441EFA9CE9A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_dependente" id="532341BE-4409-11D4-95BF-2222AD9FD9EF">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-09 23:03:40 UTC</createdTime>
+<ownerDesignName>Estudo_de Caso</ownerDesignName>
+<engineerTo>
+<item key="E8854CB1-A827-31B9-42AB-8441EFA9CE9A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_nascimento" id="50995C9D-918D-FAD5-FF09-3BD42F926968">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-09 23:03:50 UTC</createdTime>
+<ownerDesignName>Estudo_de Caso</ownerDesignName>
+<engineerTo>
+<item key="E8854CB1-A827-31B9-42AB-8441EFA9CE9A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AFAB9E27-BA2F-B015-2700-04104061D795" name="T_ESC_DEPENDENTE PK">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-09 23:03:39 UTC</createdTime>
+<ownerDesignName>Estudo_de Caso</ownerDesignName>
+<engineerTo>
+<item key="E8854CB1-A827-31B9-42AB-8441EFA9CE9A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8C6A9124-53BC-7CCA-B055-19BFB859182B</attributeRef>
+<attributeRef>63505500-A694-6724-7295-C9EF6190CD81</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

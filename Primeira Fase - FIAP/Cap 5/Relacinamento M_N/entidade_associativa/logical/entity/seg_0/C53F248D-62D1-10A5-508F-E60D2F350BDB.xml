@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C53F248D-62D1-10A5-508F-E60D2F350BDB" name="T_PACIENTE">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-08 02:08:13 UTC</createdTime>
+<ownerDesignName>entidade_associativa</ownerDesignName>
+<engineerTo>
+<item key="6800C4D6-D20A-1D9F-F3F6-644D1E170867" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_paciente" id="A69263EF-D162-C5CA-4BF3-C662CBCDD5FD">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-08 02:08:23 UTC</createdTime>
+<ownerDesignName>entidade_associativa</ownerDesignName>
+<engineerTo>
+<item key="6800C4D6-D20A-1D9F-F3F6-644D1E170867" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_paciente" id="62AC4924-9877-56CC-8176-2F8E3BB65994">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-08 02:08:34 UTC</createdTime>
+<ownerDesignName>entidade_associativa</ownerDesignName>
+<engineerTo>
+<item key="6800C4D6-D20A-1D9F-F3F6-644D1E170867" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_nascimento" id="9AF5A67F-C42B-EA61-3EC7-CAA466A7120C">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-08 02:08:47 UTC</createdTime>
+<ownerDesignName>entidade_associativa</ownerDesignName>
+<engineerTo>
+<item key="6800C4D6-D20A-1D9F-F3F6-644D1E170867" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_genero" id="20423217-0266-62B0-8A43-874AAB16060D">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-08 02:08:58 UTC</createdTime>
+<ownerDesignName>entidade_associativa</ownerDesignName>
+<engineerTo>
+<item key="6800C4D6-D20A-1D9F-F3F6-644D1E170867" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F1E0029E-415D-E157-38DC-F29B49836202" name="T_PACIENTE PK">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-08 02:08:37 UTC</createdTime>
+<ownerDesignName>entidade_associativa</ownerDesignName>
+<engineerTo>
+<item key="6800C4D6-D20A-1D9F-F3F6-644D1E170867" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A69263EF-D162-C5CA-4BF3-C662CBCDD5FD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

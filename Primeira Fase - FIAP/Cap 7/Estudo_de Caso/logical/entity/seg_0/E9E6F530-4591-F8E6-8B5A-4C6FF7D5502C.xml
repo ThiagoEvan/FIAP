@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E9E6F530-4591-F8E6-8B5A-4C6FF7D5502C" name="T_ESC_IMPLANTACAO">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-09 23:10:30 UTC</createdTime>
+<ownerDesignName>Estudo_de Caso</ownerDesignName>
+<engineerTo>
+<item key="E8854CB1-A827-31B9-42AB-8441EFA9CE9A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_implantacao" id="092B4E5A-DDD3-FDD0-2170-CE8A8A2B3DB1">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-09 23:10:47 UTC</createdTime>
+<ownerDesignName>Estudo_de Caso</ownerDesignName>
+<engineerTo>
+<item key="E8854CB1-A827-31B9-42AB-8441EFA9CE9A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="mat_funcionario" id="D3B78386-87B3-A64D-AA4D-FD9CD6EB0F86">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-09 23:37:25 UTC</createdTime>
+<generatorID>949D36B0-731C-8299-A6D5-1EE8A0101D68</generatorID>
+<ownerDesignName>Estudo_de Caso</ownerDesignName>
+<engineerTo>
+<item key="E8854CB1-A827-31B9-42AB-8441EFA9CE9A" value="true"/>
+</engineerTo>
+<referedAttribute>77F2DA6B-98FE-3B1D-EA27-2D4009AA8522</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_entrada" id="61D6B9EC-A9AE-0020-D3D4-B87F53AB78AF">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-09 23:11:04 UTC</createdTime>
+<ownerDesignName>Estudo_de Caso</ownerDesignName>
+<engineerTo>
+<item key="E8854CB1-A827-31B9-42AB-8441EFA9CE9A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_saida" id="CA7CEEA2-8E69-DFEE-6D82-EB116F6822E8">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-09 23:11:22 UTC</createdTime>
+<ownerDesignName>Estudo_de Caso</ownerDesignName>
+<engineerTo>
+<item key="E8854CB1-A827-31B9-42AB-8441EFA9CE9A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_projeto" id="213EE5A9-D8A5-AAE1-A44C-40744D425DBC">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-09 23:59:51 UTC</createdTime>
+<generatorID>383B5CB7-F64D-A779-7477-567DD53B1958</generatorID>
+<ownerDesignName>Estudo_de Caso</ownerDesignName>
+<engineerTo>
+<item key="E8854CB1-A827-31B9-42AB-8441EFA9CE9A" value="true"/>
+</engineerTo>
+<referedAttribute>E5530A81-9FBE-6464-98B5-0F9F1EBD3059</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="577A42C7-3134-C2D1-84C6-BA7346CE4D9F" name="T_ESC_IMPLANTACAO PK">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-09 23:11:03 UTC</createdTime>
+<ownerDesignName>Estudo_de Caso</ownerDesignName>
+<engineerTo>
+<item key="E8854CB1-A827-31B9-42AB-8441EFA9CE9A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>092B4E5A-DDD3-FDD0-2170-CE8A8A2B3DB1</attributeRef>
+<attributeRef>213EE5A9-D8A5-AAE1-A44C-40744D425DBC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

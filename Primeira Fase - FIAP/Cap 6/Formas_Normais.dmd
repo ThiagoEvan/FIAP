@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Formas_Normais" id="18071914-B68E-43A7-C764-4DB24B23324A" version="3.5">
+<createdBy>tevan</createdBy>
+<createdTime>2024-09-09 00:51:34 UTC</createdTime>
+<ownerDesignName>Formas_Normais</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>18071914-B68E-43A7-C764-4DB24B23324A</designId>
+</OSDM_Design>

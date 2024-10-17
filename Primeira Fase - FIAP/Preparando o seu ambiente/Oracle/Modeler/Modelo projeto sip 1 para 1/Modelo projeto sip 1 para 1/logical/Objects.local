@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="190D3B7F-C02B-CAAD-5AFF-9ECDB906D32B" name="T_CARTEIRA_HABILITACAO" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="D665FF9F-BA49-474E-36F5-1E19E299F332" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="F1EC0460-3D6B-4952-3BAB-B2EF7EA28DD4" name="T_CIDADAO" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="D665FF9F-BA49-474E-36F5-1E19E299F332" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="A6D24257-8E18-4F06-36BB-F5A88B58DD19" name="possuir" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="D665FF9F-BA49-474E-36F5-1E19E299F332" propertySourceId="F1EC0460-3D6B-4952-3BAB-B2EF7EA28DD4" propertyTargetId="190D3B7F-C02B-CAAD-5AFF-9ECDB906D32B"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>
