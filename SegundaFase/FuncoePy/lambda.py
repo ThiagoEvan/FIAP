@@ -9,5 +9,6 @@
 # Função MAP
 
 ImparPar = lambda x: f'O número {x} é par ' if x % 2 == 0 else f'O número {x} é impar'
+
 print(list(map(ImparPar, [2, 32, 53, 6, 75,97])))
 

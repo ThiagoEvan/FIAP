@@ -9,6 +9,7 @@ while opcao != 4:
 3 - Cód 3
 4 - Sair do programa''')
     opcao = int(input("Opção:"))
+    
     #Verificação das opções 
     if opcao == 1:
         print("\nSão Paulo é tri-campeão mundial\n")
